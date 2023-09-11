@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+header {
+    height: 100%;
+    background-color:rgb(64,33,34);
+    color: white;
+    margin: -0.5%;
+    padding: 5px;
+}
+.title{
+    margin-left: 10%;
+    font-size: 56px;
+}
+.menu{
+    position: absolute;
+	top: 1px;
+	right: 250px;
+    padding: 10px;
+    font-size: 30px;
+
+}
+.menu a{
+    margin-left: 20px;
+    margin-right:20px;
+
+}
+main{
+    
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+main p {
+    font-size: 22px;
+    
+}
+main h1{
+    font-size: 48px;
+}
+
+#Snoska {
+    font-size: 22px;
+    margin: 10px;
+}
+
+a, ul, li {
+    color: white;
+    text-decoration: none;
+    
+}
+footer{
+background-color: rgb(64,33,34);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.foterMenu a{
+    margin-left: 20px;
+    margin-right:20px;
+    font-size: 26px;
+}
+.peregorodka{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right:20px;
+    background-color: white;
+    height: 3px;
+    width: 100%;
+}
+
+.ssilka{
+    font-size: 40px;
+    color: antiquewhite;
+}
