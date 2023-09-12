@@ -6,10 +6,10 @@ window.addEventListener("scroll", function() {
     
     const scrollPosition1 = document.documentElement.scrollTop;
     if(scrollPosition1 > scrollPosition2){
-        Logo.src = "photo/ЧелДляСайтаВниз.png";
+        Logo.src = "../photo/ЧелДляСайтаВниз.png";
     }
     if(scrollPosition1 < scrollPosition2){
-        Logo.src = "photo/ЧелДляСайтаВверх.png";
+        Logo.src = "../photo/ЧелДляСайтаВверх.png";
     }
     scrollPosition2 = scrollPosition1;
     
@@ -17,7 +17,7 @@ window.addEventListener("scroll", function() {
         clearTimeout(timer);        
     }
     timer = setTimeout(function() {
-        Logo.src = "photo/ЧелДляСайтаpngВправо.png";
+        Logo.src = "../photo/ЧелДляСайтаpngВправо.png";
     }, 50);
 }, false);
 
